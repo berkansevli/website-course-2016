@@ -1,0 +1,75 @@
+@charset "utf-8";
+#menu {
+	background-image: url(images/cubuk.png);
+	background-repeat: no-repeat;
+	height: 494px;
+	width: 856px;
+	margin-right: auto;
+	margin-left: auto;
+	background-position: left 15px;
+}
+#menu ul li a {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFF;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 420px;
+	height: 75px;
+	
+}
+
+ul {
+	margin: 0px;
+	padding-top: 0px;
+	list-style-type: none;
+}
+body ul li {
+	float: left;
+}
+.anasayfa {
+	background-image: url(images/e1.png);
+	background-repeat: no-repeat;
+	width: 164px;
+	display: block;
+}
+#menu span {
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+
+
+
+
+
+
+/
+    transform: rotate(-90deg);
+	display: block;
+}
+
+.hakkimizda {
+	background-image: url(images/e2.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 164px;
+}
+.resimler {
+	background-image: url(images/e4.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 164px;
+}
+.iletisim {
+	background-image: url(images/e5.png);
+	background-repeat: no-repeat;
+	width: 161px;
+	display: block;
+}
+
+
+.urunler {
+	background-image: url(images/e3.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 161px;
+}

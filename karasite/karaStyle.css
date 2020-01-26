@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #FFF;
+	background-color: #000;
+	margin: 0px;
+	padding: 0px;
+}
+#ust {
+	background-color: #999;
+	height: 80px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#slider {
+	height: 300px;
+	width: 1000px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#banner {
+	background-color: #666;
+	float: left;
+	height: 300px;
+	width: 575px;
+}
+#gorsel {
+	background-color: #F90;
+	float: left;
+	height: 280px;
+	width: 400px;
+	margin-left: 5px;
+	padding: 10px;
+	position: relative;
+	color: #000;
+}
+#gorsel-img {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	height: 112px;
+	width: 100%;
+}
+#slider #gorsel h5 {
+	font-size: 18px;
+	padding: 0px;
+	font-weight: normal;
+	margin: 0px;
+}
+#slider #gorsel p {
+	font-size: 12px;
+	line-height: 21px;
+	padding: 0px;
+	margin-top: 20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.baslik {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: normal;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #FFF;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	color: #FFF;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+.metin {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 21px;
+	padding: 0px;
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+.link {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 13px;
+	color: #F90;
+	text-decoration: none;
+	background-color: #666;
+	display: inline-block;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+
+
+
+
+
+#slider #gorsel #gorsel-img img {
+	border: 1px solid #000;
+	padding: 5px;
+	margin-right: 28px;
+}
+
+
+
+
+#haberler {
+	height: 400px;
+	width: 1000px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#haber1 {
+	float: left;
+	height: 400px;
+	width: 300px;
+}
+
+#haber2 {
+	float: left;
+	height: 400px;
+	width: 300px;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+#logo h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 36px;
+	margin: 0px;
+	padding-top: 14px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+#haber3 {
+	float: left;
+	height: 400px;
+	width: 300px;
+}
+
+
+
+#icerik {
+	height: auto;
+	width: 1000px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	border-top-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #FFF;
+	overflow: auto;
+	margin-bottom: auto;
+	padding-top: 10px;
+}
+#icerik_sol {
+	float: left;
+	height: auto;
+	width: 650px;
+	margin-right: 50px;
+}
+#icerik_sag {
+	float: left;
+	width: 300px;
+}
+.sutun {
+	float: left;
+	height: 80px;
+	width: 242.5px;
+}
+.bosluk {
+	margin-right: 10px;
+}
+#ust #menu ul li {
+}
+
+
+
+
+
+#duyurular {
+	height: 80px;
+	width: 1000px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+}
+.cizgiyok {
+	border-right-style: none !important;
+}
+
+#alt {
+	background-color: #666;
+	height: 80px;
+	width: 1000px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#logo {
+	float: left;
+	height: 80px;
+	width: 300px;
+}
+#menu {
+	float: left;
+	height: 80px;
+	width: 700px;
+}
+#menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#ust #menu ul li {
+	float: left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #FFF;
+}
+#ust #menu ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	text-decoration: none;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#ust #menu ul li a {
+}
+
+#ust #menu ul li a {
+}
+#ust #menu ul li a {
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	display: block;
+}
+#ust #menu ul {
+	padding: 20px;
+}
+#ust #menu ul {
+	float: right;
+}
+#ust #menu ul li a:hover {
+	color: #F90;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #F90;
+}

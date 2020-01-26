@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu{
+	width:900px;
+	height:40px;
+	background-color:#F00;
+	margin-left:auto;  /* margin left-right auto menüyü ortalar*/
+	margin-right:auto;
+}
+.menu ul{
+	list-style-type:none; /* Noktaları yok eder...*/
+	padding:0px; /* margin padding  "0px" olması Alt alta hizalanmasını sağlar*/
+	margin:0px;
+	
+}
+.menu ul li{
+	float:left; /* soldan sağa doğru sıralar*/
+	position:relative;
+	}
+.menu li li{
+	float:none; /* li'leri yukarıdan aşağıya hizalar.*/
+	position:relative;
+}
+.menu ul li a{
+	color:#000;
+	font-size:14px;
+	text-decoration:none; /* altı çizgili yapmaz.*/
+	display:block;
+	padding:12px 11px;
+}.menu ul ul{
+	display:none;
+	background-color:#9C0;
+	position:absolute; /* üzerine gelince 
+	menü alt menünün üzerine çıkar (absolute=baskın)  */
+	z-index:1000;
+	top:40px;
+	
+}
+.menu ul li:hover > ul { /*mouse menünün
+ üzerine gelince 
+"üzerine gelinen menünün"
+ alt menüsünü göster*/
+	display:block;
+}
+.menu ul ul ul{
+	left:100%;
+	top:0px;
+	background-color:#0CF;
+	border-left:solid 1px #FFFFFF;
+}
+
+	

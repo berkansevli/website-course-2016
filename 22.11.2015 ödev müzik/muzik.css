@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+#tumu {
+	height: 1100px;
+	width: 778px;
+	left: 0px;
+	right: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#icerik_alt_sol {
+	height: 300px;
+	width: 369px;
+}
+#icerik_alt_sag {
+	float: right;
+	height: 300px;
+	width: 369px;
+}
+
+
+#menu {
+	background-image: url(images/nav.gif);
+	height: 48px;
+	width: 738px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	color: #000;
+	font-weight: bold;
+	font-style: italic;
+	float: none;
+	word-spacing: 1em;
+	white-space: pre;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+}
+
+#icerik_ust {
+	background-image: url(images/body_bg.gif);
+	background-repeat: repeat-y;
+	height: 300px;
+	width: 778px;
+}
+#icerik_ust_sol {
+	height: 300px;
+	width: 389px;
+	float: left;
+}
+#icerik_ust_sag {
+	float: right;
+	height: 300px;
+	width: 389px;
+}
+.ortacizgi {
+	border-right-style: solid;
+	border-right-width: 2px;
+	left: 0px;
+	right: 0px;
+	border-right-color: #000;
+}
+
+#icerik_alt {
+	background-image: url(images/foot_bg.gif);
+	background-repeat: repeat-y;
+	height: 300px;
+	width: 738px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+
+#ust {
+	background-image: url(images/header.jpg);
+	height: 320px;
+	width: 778px;
+	border: 1px solid #FFF;
+}
+
+body {
+	background-image: url(images/bg.gif);
+	height: 100%;
+	width: 1000px;
+}

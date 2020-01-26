@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700');
+body{margin:0;padding:0;}
+*{margin: 0; outline: 0; padding: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;font-family: 'Poppins', sans-serif;}
+.header{float:left;width:100%;border-bottom:1px solid #000}
+.contaier{width:100%;max-width:1180px;margin:0 auto;position:relative;}
+.logo{float:left;padding:15px 0;font-size: 30px;font-weight: 700;}
+.Menu{float:left;width:100%;text-align:center;background: #2badeb;}
+.Menu ul{display:inline-block;vertical-align:top;margin:0;padding:0;}
+.Menu ul li{float:left;list-style:none;}
+.Menu ul li a{display:block;padding:0 10px;text-decoration:none;color:#fff;text-transform:uppercase;line-height:45px;}
+.Menu ul li a:hover{background:#fff;color:#2badeb;}
+.UyeGiris{position:absolute;right:0;transition: all 0.9s ease;}
+.UyeGiris ul{display:inline-block;vertical-align:top;margin:0;padding:0;}
+.UyeGiris ul li{float:left;list-style:none;}
+.UyeGiris ul li a{display:block;padding:0 10px;text-decoration:none;color:#000;text-transform:uppercase;line-height:45px;}
+.banner2li{float:left;width:100%;}
+.banner2li .col2{float:left;width:50%;padding: 0 10px;overflow:hidden;}
+.banner2li .col2 img{max-width:100%;transition: all 0.5s ease;}
+.banner2li .col2:hover img{transform:scale(1.02);}
+.banner2lirow{margin:0 -10px;}
+.Acordion{float: left;width:100%;margin-top: 50px;}
+.Acordion ul{display:inline-block;vertical-align:top;margin:0;padding:0;float:left;width:100%;}
+.Acordion ul li{float:left;list-style:none;width:100%;}
+.Acordion ul li a{display:block;padding:0 10px;text-decoration:none;color:#fff;text-transform:uppercase;line-height:45px;height:45px;background:#000;}
+.Acordion ul li .AcordionText{float:left;width:100%;height:0px;transition: all 0.4s ease;overflow:hidden;}
+.Acordion ul li.active .AcordionText{transition: all 0.4s ease;height:50px;}

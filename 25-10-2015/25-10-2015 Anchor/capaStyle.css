@@ -1,0 +1,28 @@
+@charset "utf-8";
+#menu {
+	background-color: #F00;
+	height: 40px;
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	padding-top: 0px;
+}
+#icerik {
+	height: auto;
+	width: 700px;
+	margin-top: 60px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #F96;
+}
+#icerik {
+	background-color: #F66;
+	width: 700px;
+	margin-top: 60px;
+	margin-right: auto;
+	margin-left: auto;
+}

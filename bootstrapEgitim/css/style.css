@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu{
+	background-color:#F00;
+}
+	
+.menu a{
+	color:fff !important;
+}
+	
+.sutun{
+	background-color:#00f;
+	padding:10px;
+}	
+
+.mtop{
+	margin-top:30px;
+}
+	
+.item img{
+	width:100%;
+}	
+
+.carousel{
+	margin-bottom:30px;
+}
+.stn{
+	background-color:#900;
+	height:100px;
+	padding:5px;
+	margin-top:30px;
+	margin-bottom:30px;
+	
+}
+.col-md-6 .stn{
+	background-color:#3C0;
+}
+	
+		
+@media (max-width:768px){
+	
+	.sutun{
+		margin-bottom:30px;
+		
+		}
+		
+		
+		}	

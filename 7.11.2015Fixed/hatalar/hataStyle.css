@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu {
+	background-color: #F00;
+	height: 50px;
+	width: 600px;
+}
+#slider {
+	background-color: #00F;
+	height: 70px;
+	width: 600px;
+}

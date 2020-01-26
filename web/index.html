@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel="stylesheet" href="css/style.css"></link>
+
+	<title>Berkan</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+<body>
+<div class="header">
+	<div class="contaier">
+		<div class="logo">Berkan</div>
+		<div class="UyeGiris">
+			<ul>
+				<li><a href="">Üye Giris</a></li>
+				<li><a href="">Üye Ol</a></li>
+			</ul>
+		</div>
+	</div>
+		<div class="Menu">
+			<ul>
+				<li><a href="">Anasayfa</a></li>
+				<li><a href="">Kategori</a></li>
+				<li><a href="">Ürünler</a></li>
+				<li><a href="">İletişim</a></li>
+				<li><a href="">Hakkımızda</a></li>
+			</ul>
+		</div>
+</div>
+<div class="Icerik">
+	<div class="contaier">
+		<div class="banner2li">
+			<div class="banner2lirow">
+						 <div class="col2"><img src="resim.jpg"></div>
+			             <div class="col2"><img src="resim.jpg"></div>		
+			</div>
+		
+		</div>
+
+		<div class="Acordion">
+			<ul>
+				<li>
+					<a href="javascript:void(0)">Başlık</a>
+					<div class="AcordionText">
+						dsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshf
+					</div>
+				</li>
+				<li>
+					<a href="javascript:void(0)">Başlık</a>
+					<div class="AcordionText">
+						dsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshf
+					</div>
+				</li>
+				<li>
+					<a href="javascript:void(0)">Başlık</a>
+					<div class="AcordionText">
+						dsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshf
+					</div>
+				</li>
+				<li>
+					<a href="javascript:void(0)">Başlık</a>
+					<div class="AcordionText">
+						dsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshfdsas asdjasjfı safjasjfıjda askdjaısjflajsfıa asfjaıshf
+					</div>
+				</li>												
+			</ul>
+		</div>
+	</div>
+</div>
+<script>
+	$(document).ready(function () {
+$('.Acordion>ul>li>a').click(function(event) {
+if ($(this).closest('li').hasClass('active')) {
+   $(this).closest('li').removeClass('active');
+}else{
+	$('.Acordion>ul>li').removeClass('active');
+$(this).closest('li').addClass('active');
+}
+});
+
+});
+</script>
+
+</body>
+</html>

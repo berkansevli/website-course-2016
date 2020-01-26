@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	font-family:"Comic Sans MS", cursive;
+	padding:0px;
+	margin:0px;
+}
+.tumu{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.logo{
+	width:200px;
+	height:163px;
+	float:left;
+}
+.menu{
+    background-image:url(images/menu-bg.png);
+	height:70px;
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	padding-top:90px;
+}
+.menu ul{list-style-type:none;
+padding:0px;
+margin:0px;
+float:right;
+}
+.menu ul li{
+	float:left;
+}
+	.menu ul li a{
+		text-decoration:none;
+		color:#FFF;
+		font-size:16px;
+		line-height:70px;
+		display:block;
+		padding-left:15px;
+		padding-right:15px;
+	}
+	.slider{
+		margin-top:20px;
+	}
+	.sutun{
+		width:300px;
+		height:400px;
+		float:left;
+		margin-top:30px;
+	}
+	
+	.renk1{
+		background-color:#ff9327;
+	}
+	.renk2{
+		background-color:#005433;
+		margin-left:30px;
+		margin-right:30px;
+	}
+	.renk3{
+		background-color:#0e8a41;
+	}
+	
+	
+	
+	.sutun h1{
+		line-height:50px;
+		margin:0px;
+		padding:0px 0px 0px 20px;
+		font size:24px;
+		color:#FFF;     /*
+		-webkit-text-stroke:black 1px; chrome safari 
+		-ms-text-stroke:black 1px;     //explorer
+		-moz-text-stroke:black 1px;     //mozilla
+		-o-text-stroke:black 1px;        //opera     */
+		text-shadow:
+		1px 1px 0px #00C,
+		-1px -1px 0px #00C,
+		-1px 1px 0px #00C,
+		1px -1px 0px #00C;
+	}
+		
+		.sutun p{
+			font-size:12px;
+			color:#FFF;
+			line-height:21px;
+			padding:0px 20px;
+		}
+		
+		.alt{
+			height:100px;
+			background-color:#063e7c;
+			margin-top:30px;
+			padding;20px 0px 0px 20px;
+			color:#FFF
+			
+		}
+		.temizle{
+			clear:both;
+		}
+		.icerik{
+			padding:20px;
+		}
+		.icerik h1{
+			font-size:24px;
+		}
+		.icerik p{
+			font-size:13px;
+			line-height:21px;
+		}
+		.icerik img{
+			width:100%;
+		}
+		@media(max-width:768px)  {
+		     .tumu{width:100%;
+			 }
+			 .slider img{
+				 width:100%;
+		}
+		.sutun{
+			float:none;
+			margin-left:auto;
+			margin-right:auto;
+			width:480px;
+			height:auto;
+			padding-bottom:20px;
+			
+		}
+		.sutun img{
+			width:100%
+		}
+		.menu{
+			background-image:none;
+			background-color:#090;
+			clear:both;
+			padding-top:0px;
+		}
+		.cizgi{
+			border:solid 2px #000000;
+			margin-top:10px;
+			float:right;
+			clear:both;
+			width:50px;
+		}
+        .menu ul{
+			display:none;
+			z-index:1000;
+			position:relative;
+			top:70px;
+		}
+		.menu:hover > ul{
+			display:block;
+			background-color:#009900;
+			float:none;
+		}
+		.menu ul li{
+			float:none;
+			border-bottom:solid 1px #FFFFFF;
+		}
+		
+		}
+		
+@media(max-width:480px){
+.sutun{
+	width:300px;
+ }
+ 
+.menu{
+	background-color:#FF0;
+}
+
+.sutun h1{
+	font-size:18px;
+}
+ 
+}
+		
+		
+		
+		
+		
+	
+	
+	
+

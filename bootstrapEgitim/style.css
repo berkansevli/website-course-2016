@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu{
+	background-color:#F00;
+}
+.menu a{
+	color:#FFF!important;
+}
+.sutun{
+	background-color:#09F;
+	padding:10px;
+}
+

@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+#ust {
+	color: #FFF;
+	background-color: #666;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100px;
+	width: 700px;
+}
+#slider {
+	height: 200px;
+	width: 700px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#icerik {
+	background-color: #D0FD4B;
+	height: auto;
+	width: 670px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 15px;
+	text-align: justify;
+	font-size: 12px;
+	line-height: 21px;
+}
+#logo {
+	height: 81px;
+	width: 183px;
+	float: left;
+	padding-top: 19px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+}
+#menu {
+	float: left;
+	width: 502px;
+	padding-top: 33px;
+}
+
+
+#alt {
+	background-color: #F00;
+	width: 670px;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 15px;
+	font-size: 12px;
+	color: #CCC;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-image: url(images/imbwU2G.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+#menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+#menu ul li {
+	float: left;
+	margin: 0px;
+}
+#menu ul li a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 14px;
+	background-color: #600;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	display: block;
+	margin-top: 0px;
+	margin-right: 3px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#menu ul li a:hover {
+	background-color: #00F;
+}

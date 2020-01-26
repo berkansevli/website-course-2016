@@ -1,0 +1,41 @@
+@charset "utf-8";
+#mavi {
+	background-color: #00F;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+	z-index: 10;
+	left: 100px;
+	top: 100px;
+}
+#kırmızı {
+	background-color: #F00;
+	height: 100px;
+	width: 100px;
+	padding-top: 0px;
+	padding-left: 0px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+#sari {
+	background-color: #FF6;
+	height: 200px;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	overflow: hidden;
+}
+#yesil {
+	background-color: #0C6;
+	height: 75px;
+	width: 300px;
+}
+#mor {
+	background-color: #606;
+	height: 100px;
+	width: 100px;
+	left: 350px;
+	top: 10px;
+	position: absolute;
+}

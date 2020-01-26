@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+.txtBox {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 14px;
+	color: #F00;
+	height: 20px;
+	width: 200px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border: 1px solid #F00;
+	background-color: #999;
+	outline: none;
+}
+.btnGndr {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	background-color: #00C;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	cursor: pointer;
+	outline: none;
+}
+.txtArea {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #00F;
+	background-color: #999;
+	height: 150px;
+	width: 250px;
+	border: 1px solid #F00;
+	outline: none;
+}
+</style>
+</head>
+
+<body>
+<form name="form1" method="post" action="">
+  <table width="500" border="0" cellspacing="0" cellpadding="5">
+    <tr>
+      <th scope="row"><label for="adsyd">Ad Soyad</label></th>
+      <td><input name="adsyd" type="text" class="txtBox" id="adsyd"></td>
+    </tr>
+    <tr>
+      <th scope="row"><label for="mail">E-mail</label></th>
+      <td><input name="mail" type="text" class="txtBox" id="mail"></td>
+    </tr>
+    <tr>
+      <th scope="row"><label for="tlfn">Telefon</label></th>
+      <td><input name="tlfn" type="text" class="txtBox" id="tlfn"></td>
+    </tr>
+    <tr>
+      <th scope="row"><label for="msj">Mesaj</label></th>
+      <td><textarea name="msj" class="txtArea" id="msj"></textarea></td>
+    </tr>
+    <tr>
+      <th scope="row">&nbsp;</th>
+      <td><input name="btnGndr" type="submit" class="btnGndr" id="btnGndr" value="Gönder"></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
